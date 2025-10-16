@@ -218,11 +218,6 @@ sns.kdeplot(data=tips,x='total_bill',hue='time',multiple='fill',linewidth=3,pale
 <img width="730" height="462" alt="image" src="https://github.com/user-attachments/assets/672b953a-cfc4-479d-80e0-f1223e501984" />
 
 ```python
-sns.kdeplot(data=tips,x='total_bill',hue='time',multiple='layer',linewidth=3,palette='Set2',alpha=0.8)
-```
-<img width="701" height="461" alt="image" src="https://github.com/user-attachments/assets/0eeb7ac9-fb18-4557-8421-408764f3ab3a" />
-
-```python
 sns.kdeplot(data=tips,x='total_bill',hue='time',multiple='stack',linewidth=3,palette='Set2',alpha=0.8)
 ```
 <img width="719" height="487" alt="image" src="https://github.com/user-attachments/assets/c8b368f1-db83-4548-bdb7-7fb45accd765" />
